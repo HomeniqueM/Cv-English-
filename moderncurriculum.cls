@@ -91,7 +91,7 @@
                 }%
             }    
 
-% Command for printing knowledge text
+% Command for printing  text
 \newcommand\knowledge[1]{ 
 	\renewcommand{\knowledge}{
 		\begin{flushleft}
@@ -142,26 +142,17 @@
 		
 		%------------------------------------------------
         \begin{flushleft}
-		\profilesection{Conhecimentos}
+		\profilesection{Skills}
 		\end{flushleft}
 		\knowledge
 		\scriptsize
 
-        %------------------------------------------------
-		
-		\ifthenelse{\equal{\skills}{}}{}{
-			\begin{flushleft}
-			\profilesection{Habilidades}
-			\newline\newline
-			\normalsize{\skills}
-			\end{flushleft}
-		}
 
 		%------------------------------------------------
 		
 		\ifthenelse{\equal{\languages}{}}{}{
 			\begin{flushleft}
-			\profilesection{Idiomas}
+			\profilesection{Languages}
 			\newline\newline
 			\normalsize{\languages}
 			\end{flushleft}
